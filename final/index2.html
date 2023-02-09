@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bowl of Heaven --Signup</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="authentication()">
+    <div class="wrapper">
+        <header>Signup</header>
+        <form action="index.html">
+          <div class="field Mobile Number">
+            <div class="input-area">  
+              <input type="tel" id="phone" placeholder="Mobile number" name="phone" pattern="[0-9]{5}[0-9]{2}[0-9]{3}">
+              <i class="icon fas fa-envelope"></i>
+              <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+            <div class="error error-txt">Mobile no. can't be blank</div>
+          </div>
+          <div class="field password">
+            <div class="input-area">
+              <input type="password" placeholder="password">
+              <i class="icon fas fa-lock"></i>
+              <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+            <div class="error error-txt">Password can't be blank</div>
+          </div>
+          <input type="submit" value="Sign up">
+        </form>
+        <div class="sign-txt">Already member? <a href="index.html">Login</a></div>
+      </div>
+    
+      <script src="script.js"></script>
+      
+    
+  </body>
+</html>
